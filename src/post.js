@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
-const Schema = require("mongoose").Schema;
+const Schema = mongoose.Schema;
 
 const PostSchema = new Schema({
   title: String
 });
+
+module.exports = PostSchema;
